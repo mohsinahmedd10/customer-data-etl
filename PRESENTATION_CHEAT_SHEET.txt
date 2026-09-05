@@ -1,0 +1,28 @@
+PRESENTATION CHEAT SHEET
+
+Title: Customer Data Cleaning and Analysis System
+
+1. Introduction
+"I selected Customer Data Cleaning and Analysis because customer data is commonly collected by businesses, but raw data often contains duplicates, missing values and categorical information."
+
+2. Extract
+"We extract the raw customer CSV into a Pandas DataFrame."
+
+3. Transform
+"First, I check and remove duplicate records. Then I handle missing numerical values using the mean and categorical values using the mode. I encode categorical columns using One-Hot Encoding and standardize numerical features using StandardScaler."
+
+4. Load
+"Finally, I save the cleaned dataset and transformed dataset as CSV files."
+
+5. Analysis
+"After cleaning, I analyze customers by city, preferred category and average spending."
+
+6. Conclusion
+"The ETL pipeline converts messy raw data into consistent, analysis-ready data."
+
+KEY DEFINITIONS
+- ETL = Extract, Transform, Load.
+- Mean imputation = replace a missing numerical value with the column average.
+- Mode imputation = replace a missing categorical value with the most frequent value.
+- One-Hot Encoding = convert categories into binary columns.
+- Standardization = scale numerical features so they have mean approximately 0 and standard deviation approximately 1.
